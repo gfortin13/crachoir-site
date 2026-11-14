@@ -6,17 +6,18 @@ Served via GitHub Pages at **https://gfortin13.github.io/crachoir-site/**.
 
 ## Pages
 
-| File | URL |
-|---|---|
-| `index.html` | `/` — landing page |
-| `terms.html` | `/terms.html` — Terms & Conditions |
-| `privacy.html` | `/privacy.html` — Privacy Policy |
+| English | French | Content |
+|---|---|---|
+| `/` | `/fr/` | Landing page |
+| `/terms.html` | `/fr/terms.html` | Terms & Conditions |
+| `/privacy.html` | `/fr/privacy.html` | Privacy Policy |
+| `/delete-account.html` | `/fr/delete-account.html` | How to delete your account |
 
 ## Updating legal content
 
 The authoritative text lives in the private `crachoir` repo under `crachoir/Assets/Legal/`:
 
-- `TermsAndConditions_en.txt`
-- `PrivacyPolicy_en.txt`
+- `TermsAndConditions_en.txt`, `TermsAndConditions_fr.txt`
+- `PrivacyPolicy_en.txt`, `PrivacyPolicy_fr.txt`
 
-When either `.txt` file changes, the corresponding `.html` here must be updated to match.
+When any of these files change, the matching `.html` page here must be updated to match.
