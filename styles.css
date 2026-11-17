@@ -115,6 +115,31 @@ ul li {
   color: #fff;
 }
 
+.tip {
+  margin-top: 2.5rem;
+  padding: 1.5rem;
+  border: 1.5px solid #6b5e4c;
+  border-radius: 8px;
+}
+
+.tip h2 {
+  margin-top: 0;
+}
+
+.tip-button {
+  display: inline-block;
+  padding: 0.7rem 1.4rem;
+  border-radius: 6px;
+  background: #6b5e4c;
+  color: #fff;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.tip-button:hover {
+  background: #4f4538;
+}
+
 footer {
   margin-top: 4rem;
   padding-top: 1.5rem;
